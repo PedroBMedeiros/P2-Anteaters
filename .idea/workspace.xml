@@ -1,7 +1,36 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="" />
+    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="blueprint. still need to add a few more things but I will do that later">
+      <change afterPath="$PROJECT_DIR$/blueprint/anthony/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blueprint/kenzie/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blueprint/kenzie/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blueprint/naweid/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/blueprint/pedro/routes.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/Introduction.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprint/kenzie/__init__.y.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprint/__init__.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -11,6 +40,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -18,22 +48,60 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1qDC2aJbvz04SLGa4t22dxB575B" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/blueprint/anthony" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/blueprint/anthony" />
+      <recent name="$PROJECT_DIR$/blueprint/naweid" />
+      <recent name="$PROJECT_DIR$/blueprint/kenzie" />
+      <recent name="$PROJECT_DIR$/blueprint/pedro" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\giust\OneDrive\Documents\GitHub\P2-Anteaters" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="P2-Anteaters" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -44,7 +112,57 @@
       <option name="presentableId" value="Default" />
       <updated>1616604566363</updated>
     </task>
+    <task id="LOCAL-00001" summary="blueprint. still need to add a few more things but I will do that later">
+      <created>1616692385501</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616692385501</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="blueprint. still need to add a few more things but I will do that later" />
+    <option name="LAST_COMMIT_MESSAGE" value="blueprint. still need to add a few more things but I will do that later" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="699" height="215" key="GridCell.Tab.0.bottom" timestamp="1616731107391">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="699" height="215" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1616731107391" />
+    <state width="699" height="215" key="GridCell.Tab.0.center" timestamp="1616731107389">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="699" height="215" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1616731107389" />
+    <state width="699" height="215" key="GridCell.Tab.0.left" timestamp="1616731107388">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="699" height="215" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1616731107388" />
+    <state width="699" height="215" key="GridCell.Tab.0.right" timestamp="1616731107390">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state width="699" height="215" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1616731107390" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1616692449875">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1616692449875" />
+    <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1616727012391">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.829@0.23.1440.829" timestamp="1616727012391" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
