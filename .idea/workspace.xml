@@ -20,16 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="blueprint. still need to add a few more things but I will do that later">
-      <change afterPath="$PROJECT_DIR$/blueprint/anthony/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blueprint/kenzie/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blueprint/kenzie/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blueprint/naweid/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blueprint/pedro/routes.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/Introduction.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blueprint/kenzie/__init__.y.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprint/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Introduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -139,22 +134,22 @@
     <option name="LAST_COMMIT_MESSAGE" value="blueprint. still need to add a few more things but I will do that later" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="699" height="215" key="GridCell.Tab.0.bottom" timestamp="1616731107391">
+    <state width="699" height="215" key="GridCell.Tab.0.bottom" timestamp="1616731856211">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="699" height="215" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1616731107391" />
-    <state width="699" height="215" key="GridCell.Tab.0.center" timestamp="1616731107389">
+    <state width="699" height="215" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1616731856211" />
+    <state width="699" height="215" key="GridCell.Tab.0.center" timestamp="1616731856210">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="699" height="215" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1616731107389" />
-    <state width="699" height="215" key="GridCell.Tab.0.left" timestamp="1616731107388">
+    <state width="699" height="215" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1616731856210" />
+    <state width="699" height="215" key="GridCell.Tab.0.left" timestamp="1616731856210">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="699" height="215" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1616731107388" />
-    <state width="699" height="215" key="GridCell.Tab.0.right" timestamp="1616731107390">
+    <state width="699" height="215" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1616731856210" />
+    <state width="699" height="215" key="GridCell.Tab.0.right" timestamp="1616731856211">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state width="699" height="215" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1616731107390" />
+    <state width="699" height="215" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1616731856211" />
     <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1616692449875">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
@@ -163,6 +158,14 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.829@0.23.1440.829" timestamp="1616727012391" />
+    <state x="357" y="60" key="new project wizard" timestamp="1616732391199">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="357" y="60" key="new project wizard/0.23.1440.829@0.23.1440.829" timestamp="1616732391199" />
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup" timestamp="1616731867170">
+      <screen x="0" y="23" width="1440" height="829" />
+    </state>
+    <state x="385" y="176" width="670" height="676" key="search.everywhere.popup/0.23.1440.829@0.23.1440.829" timestamp="1616731867170" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

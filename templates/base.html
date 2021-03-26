@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../static/styles.css">
     <meta charset="UTF-8">
     <title>Title</title>
 </head>
 <body>
-<h1>Hello from base.html!</h1>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="/">p2-anteaters</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/anthony">Anthony</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/kenzie">Kenzie</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/naweid">Naweid</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="/pedro">Pedro</a>
+            </li>
+        </ul>
+    </div>
+</nav>
     {% block content %}
 {% endblock %}
 </body>
