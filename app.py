@@ -1,5 +1,5 @@
 from flask import Flask, render_template
-
+from flask_sqlalchemy import SQLAlchemy
 from blueprint.kenzie.routes import kenzie
 from blueprint.anthony.routes import anthony
 from blueprint.naweid.routes import naweid
@@ -12,6 +12,8 @@ app.register_blueprint(kenzie)
 app.register_blueprint(naweid)
 app.register_blueprint(pedro)
 
-@app.route("/")
-def Home():
+db = SQLAlchemy(app)
+
+@app.route('/')
+def home():
     return render_template('index.html')
