@@ -14,6 +14,4 @@ app.register_blueprint(pedro)
 
 @app.route("/")
 def Home():
-    return render_template('Index.html')
-if __name__ == "__main__":
-    app.run(debug=True)
+    return render_template('index.html')
