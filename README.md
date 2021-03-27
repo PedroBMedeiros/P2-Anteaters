@@ -12,6 +12,7 @@ The ultimate planner for any student at Del Norte High School
 - [ ] **JINJA**
 
 ###Project Plan
+
 #Summary: We are creating a planner that allows people better plan out their day and their tasks.
 
 #Goals/Tasks
