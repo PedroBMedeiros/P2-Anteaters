@@ -15,7 +15,7 @@ The ultimate planner for any student at Del Norte High School
 #Summary: We are creating a planner that allows people better plan out their day and their tasks.
 
 #Goals/Tasks
-- Anthony: He is going to handle all the SQLalchemey and python mechanics as he is going to create the database, create a rest api, and hadnle the backend with the planner.
+- Anthony: He is going to handle all the SQLalchemey and python mechanics as he is going to create the database, create a rest api, and handle the backend with the planner.
 - Kenzie: She is going to work with Naweid on handling all the HTML and CSS aspects in making the project look nice and formating the planner to function better.
 - Pedro: He is going to create the sign up system/login system and deploy our project as well as create a domain for our website.
 - Naweid: He is going to work with Kenzie on handling the HTML and CSS aspects and he is going to help Pedro with the login system.
