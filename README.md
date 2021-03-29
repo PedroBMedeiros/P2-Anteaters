@@ -19,8 +19,8 @@ We are creating an online planner that consists of a to do list, a dynamic calen
 
 ## Links
 
-|  |  | |  |  |  | | |  |  |  | 
-| :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | :---: | 
+|  |  | |  
+| :---: | :---: | :---: | 
 |[Project Plan](https://docs.google.com/document/d/11LWZ9hyue_IkX8C8bp0Zeuk3ExlGAliwQJ50faWWa-A/edit) | [Scrum Board](https://github.com/PedroBMedeiros/P2-Anteaters/projects/1)| [BluePrints](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/app.py#L3-L13)
 | [Group Commits](https://github.com/PedroBMedeiros/P2-Anteaters/graphs/contributors) | [P2 Github](https://github.com/MaxVukovich/P2Lions) | [P2 Lions Crossover Grading](https://docs.google.com/document/d/1duoyskf4muDNbS6AEM72v9KyWRofymjHcliAa2HA2Go/edit)| 
 # Delivery of Running Code and Big Ticket Items
