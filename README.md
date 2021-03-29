@@ -40,15 +40,20 @@ Here you will find each contributors' progress, commit history, and amount of co
 
 ## Big Ideas
 
-```Big Idea 1: Creative Development```      ```10–13%```
+```Big Idea 1: Creative Development```    
+```10–13%```
 
-```Big Idea 2: Data ``` ```17–22%```
+```Big Idea 2: Data ```   
+```17–22%```
 
-```Big Idea 3: Algorithms and Programming ``` ```30–35%```
+```Big Idea 3: Algorithms and Programming ```  
+```30–35%```
 
-```Big Idea 4: Computer Systems and Networks``` ``` 11–15%```
+```Big Idea 4: Computer Systems and Networks```   
+``` 11–15%```
 
-```Big Idea 5: Impact of Computing``` ```21–26%```
+```Big Idea 5: Impact of Computing```      
+```21–26%```
 
 ## Contact
 [MACKENZIE A](https://github.com/kenzie-rylie)
