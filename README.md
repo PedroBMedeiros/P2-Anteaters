@@ -20,7 +20,7 @@ We are creating an online planner that consists of a to do list, a dynamic calen
 |  |  | |  
 | :---: | :---: | :---: | 
 |[Project Plan](https://docs.google.com/document/d/11LWZ9hyue_IkX8C8bp0Zeuk3ExlGAliwQJ50faWWa-A/edit) | [Scrum Board](https://github.com/PedroBMedeiros/P2-Anteaters/projects/1)| [BluePrints](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/app.py#L3-L13)
-| [runtime link](http://75.6.165.166:5000/)| [P2 Github](https://github.com/MaxVukovich/P2Lions) | [Lions Crossover](https://docs.google.com/document/d/1duoyskf4muDNbS6AEM72v9KyWRofymjHcliAa2HA2Go/edit)| 
+| [runtime link](http://75.6.165.166:5000/)| [Lions Github](https://github.com/MaxVukovich/P2Lions) | [Lions Crossover](https://docs.google.com/document/d/1duoyskf4muDNbS6AEM72v9KyWRofymjHcliAa2HA2Go/edit)| 
 
 # Delivery of Running Code and Big Ticket Items: [Scrum Board](https://github.com/PedroBMedeiros/P2-Anteaters/projects/1)
 Here you will find our progress throughout this project. We use tickets to track our goals, items that needs to be done, items in progress, and items that are finished and deployed.
