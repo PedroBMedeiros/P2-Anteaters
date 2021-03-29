@@ -21,5 +21,4 @@ def home():
 
 if __name__ == "__main__":
     # runs the application on the repl development server
-    app.run(debug=True, host='127.0.0.1', port="5000")
-#192.168.86.51
+    app.run(debug=True)
