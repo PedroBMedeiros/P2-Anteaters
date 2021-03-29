@@ -13,18 +13,17 @@ We are creating an online planner that consists of a to do list, a dynamic calen
 - Raspberry Pi
 - HTML/CSS
 
-## Run Instructions 
 
-[runtime link](http://75.6.165.166:5000/)
 
-## Links
+## Links for Crossover
 
 |  |  | |  
 | :---: | :---: | :---: | 
 |[Project Plan](https://docs.google.com/document/d/11LWZ9hyue_IkX8C8bp0Zeuk3ExlGAliwQJ50faWWa-A/edit) | [Scrum Board](https://github.com/PedroBMedeiros/P2-Anteaters/projects/1)| [BluePrints](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/app.py#L3-L13)
-| [Group Commits](https://github.com/PedroBMedeiros/P2-Anteaters/graphs/contributors) | [P2 Github](https://github.com/MaxVukovich/P2Lions) | [P2 Lions Crossover Grading](https://docs.google.com/document/d/1duoyskf4muDNbS6AEM72v9KyWRofymjHcliAa2HA2Go/edit)| 
-# Delivery of Running Code and Big Ticket Items
+| [runtime link](http://75.6.165.166:5000/)| [P2 Github](https://github.com/MaxVukovich/P2Lions) | [Lions Crossover](https://docs.google.com/document/d/1duoyskf4muDNbS6AEM72v9KyWRofymjHcliAa2HA2Go/edit)| 
 
+# Delivery of Running Code and Big Ticket Items: [Scrum Board](https://github.com/PedroBMedeiros/P2-Anteaters/projects/1)
+Here you will find our progress throughout this project. We use tickets to track our goals, items that needs to be done, items in progress, and items that are finished and deployed.
 
 # Roles
 
@@ -36,9 +35,22 @@ We are creating an online planner that consists of a to do list, a dynamic calen
 
 ``Naweid`` He is going to work with Kenzie on handling the HTML and CSS aspects and he is going to help Pedro with the login system.
 
+### [Contributes](https://github.com/PedroBMedeiros/P2-Anteaters/graphs/contributors)
+Here you will find each contributors' progress, commit history, and amount of commits
 
+## Big Ideas
 
-## Github/Contact
+```Big Idea 1: Creative Development```      ```10–13%```
+
+```Big Idea 2: Data ``` ```17–22%```
+
+```Big Idea 3: Algorithms and Programming ``` ```30–35%```
+
+```Big Idea 4: Computer Systems and Networks``` ``` 11–15%```
+
+```Big Idea 5: Impact of Computing``` ```21–26%```
+
+## Contact
 [MACKENZIE A](https://github.com/kenzie-rylie)
 
 [ANTHONY G](https://github.com/Giustanthony)
