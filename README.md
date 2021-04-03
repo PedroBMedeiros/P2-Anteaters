@@ -23,7 +23,7 @@ We are creating an online planner that consists of a to do list, a dynamic calen
 | [runtime link](http://75.6.165.166:5000/)| [Lions Github](https://github.com/MaxVukovich/P2Lions) | [Lions Crossover](https://docs.google.com/document/d/1duoyskf4muDNbS6AEM72v9KyWRofymjHcliAa2HA2Go/edit)| 
 
 ## Mini Lab Write up
-- Kenzie - 
+- Kenzie - For point 1 I created my new class with the corresponding objects inside of my personal route. For the second point I defined a class on line 5 name "Intro", I am using this route to store information about my name and also any other data I might want to add in the future. I also created an object out of this class for the third point. This object was created on line 8. For the fourth point I display the data by passing my object in as a jinja variable so that I can display it on my page. For the final point, one thing that I became aware of when doing this was the flexibility of classes, I found it really interesting, easy and important that I could quickly add new data whilst also staying very organized.
 - Anthony - For the first task, I created a personal blueprint under /Anthony. I then proceeded to create a class called Info, which allowed me to complete my next task in creating an object as I was able to convert my class into an object. I finished this off by making the object into a jinja variable and rendering it. I would say the thing I am most proud of is the simplicity of it all as I was able to answer all of the requirements and create a functioning system with only a few lines of code. 
 - Pedro - 
 - Naweid - 
