@@ -24,7 +24,7 @@ We are creating an online planner that consists of a to do list, a dynamic calen
 
 ## Mini Lab Write up
 - Kenzie - 
-- Anthony - 
+- Anthony - For the first task, I created a personal blueprint under /Anthony. I then proceeded to create a class called Info, which allowed me to complete my next task in creating an object as I was able to convert my class into an object. I finished this off by making the object into a jinja variable and rendering it. I would say the thing I am most proud of is the simplicity of it all as I was able to answer all of the requirements and create a functioning system with only a few lines of code. 
 - Pedro - 
 - Naweid - 
 
