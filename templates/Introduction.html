@@ -3,4 +3,19 @@
 {% block content %}
 <h1>Hello my name is {{name}}</h1>
 <p>^ This is dynamic to route!</p>
+
+<h1>Quadratic Formula</h1>
+<p>(-b ± (b ** 2 - 4 * a * c) ** 0.5) / 2 * a</p>
+<form method="POST">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <input required="true" placeholder="a" type="number" name="a" />
+    <input required="true" placeholder="b" type="number" name="b" />
+    <input required="true" placeholder="c" type="number" name="c" />
+    <input type="submit" />
+</form>
+<p>a = {{a}}</p>
+<p>b = {{b}}</p>
+<p>c = {{c}}</p>
+<h2>{{output}}</h2>
+
 {% endblock %}
