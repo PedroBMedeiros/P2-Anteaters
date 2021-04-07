@@ -5,7 +5,7 @@ from blueprint.kenzie.routes import kenzie
 from blueprint.anthony.routes import anthony
 from blueprint.naweid.routes import naweid
 from blueprint.pedro.routes import pedro
-from blueprint.cherry.route import cherry
+from blueprint.cherry.routes import cherry
 
 app = Flask(__name__)
 app.config['SECRET_KEY'] = "MY SECRET KEY!"

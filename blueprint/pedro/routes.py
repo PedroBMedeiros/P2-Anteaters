@@ -1,9 +1,9 @@
 from flask import render_template, Blueprint, request
 import cmath
-pedro = Blueprint('pedro', __name__)
+pedro = Blueprint('Pedro', __name__)
 
 
-@pedro.route("/[pedro]", methods=['GET','POST'])
+@pedro.route("/pedro", methods=['GET','POST'])
 def pedroRoute():
     a = int(request.form.get("a", 1))
     b = int(request.form.get("b", 1))

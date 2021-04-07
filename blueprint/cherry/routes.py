@@ -1,8 +1,8 @@
 from flask import render_template, Blueprint, request
 import cmath
-cherry = Blueprint('cherry', __name__)
+cherry = Blueprint('Cherry', __name__)
 
-@cherry.route("/[cherry]", methods=['GET','POST'])
+@cherry.route("/cherry", methods=['GET','POST'])
 def cherryRoute():
     a = int(request.form.get("a", 1))
     b = int(request.form.get("b", 1))
@@ -13,4 +13,4 @@ def cherryRoute():
     sol1 = (-b-cmath.sqrt(d))/(2*a)
     sol2 = (-b+cmath.sqrt(d))/(2*a)
     output = 'The solution are {0} and {1}'.format(sol1,sol2)
-    return render_template("Introduction.html", name="cherry", output=output, a=a, b=b, c=c)
+    return render_template("Introduction.html", name="Cherry", output=output, a=a, b=b, c=c)
