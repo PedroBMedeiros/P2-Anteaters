@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="readme">
+    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="fixed mini lab">
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blueprint/kenzie/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprint/kenzie/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/Introduction.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Introduction.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprint/anthony/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprint/anthony/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -200,7 +198,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617429228883</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed mini lab">
+      <created>1617761687901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1617761687901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,14 +225,15 @@
     <MESSAGE value="deployment process" />
     <MESSAGE value="Individual mini lab... classes and objects" />
     <MESSAGE value="readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="readme" />
+    <MESSAGE value="fixed mini lab" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed mini lab" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="330" y="23" width="1024" height="829" key="#Project_Structure" timestamp="1617428210782">
+    <state x="330" y="23" width="1024" height="829" key="#Project_Structure" timestamp="1617761702948">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="-1480" y="-155" key="#Project_Structure/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1616820227892" />
-    <state x="330" y="23" width="1024" height="829" key="#Project_Structure/0.23.1440.829@0.23.1440.829" timestamp="1617428210782" />
+    <state x="330" y="23" width="1024" height="829" key="#Project_Structure/0.23.1440.829@0.23.1440.829" timestamp="1617761702948" />
     <state x="518" y="236" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1616879523204">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
@@ -237,26 +243,26 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="100" y="123" width="1240" height="629" key="DiffContextDialog/0.23.1440.829@0.23.1440.829" timestamp="1617761527631" />
-    <state width="1398" height="2" key="GridCell.Tab.0.bottom" timestamp="1617761493867">
+    <state width="1398" height="183" key="GridCell.Tab.0.bottom" timestamp="1617772463149">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1616830396266" />
-    <state width="1398" height="2" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1617761493867" />
-    <state width="1398" height="2" key="GridCell.Tab.0.center" timestamp="1617761493865">
+    <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1617772463149" />
+    <state width="1398" height="183" key="GridCell.Tab.0.center" timestamp="1617772463148">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1616830396266" />
-    <state width="1398" height="2" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1617761493865" />
-    <state width="1398" height="2" key="GridCell.Tab.0.left" timestamp="1617761493864">
+    <state width="1398" height="183" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1617772463148" />
+    <state width="1398" height="183" key="GridCell.Tab.0.left" timestamp="1617772463147">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1616830396266" />
-    <state width="1398" height="2" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1617761493864" />
-    <state width="1398" height="2" key="GridCell.Tab.0.right" timestamp="1617761493866">
+    <state width="1398" height="183" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1617772463147" />
+    <state width="1398" height="183" key="GridCell.Tab.0.right" timestamp="1617772463148">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state width="1877" height="282" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1616830396266" />
-    <state width="1398" height="2" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1617761493866" />
+    <state width="1398" height="183" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1617772463148" />
     <state x="144" y="95" key="MergeDialog" timestamp="1617429206022">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
@@ -265,12 +271,12 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="357" y="206" key="MultipleFileMergeDialog/0.23.1440.829@0.23.1440.829" timestamp="1617429201840" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1617429233759">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1617761709132">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="320" y="167" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1617056691022" />
     <state x="-1493" y="-56" key="Vcs.Push.Dialog.v2/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1616821832496" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1617429233759" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1617761709132" />
     <state x="339" y="133" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1617428606892">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
