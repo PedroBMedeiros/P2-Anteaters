@@ -1,0 +1,17 @@
+{% extends 'base.html' %} {% block content %}
+<h3>input cube edge for (a)</h3>
+<form method="POST">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <input required type="number" placeholder="a (default: 3)" name="a" />
+    <input type="submit" />
+</form>
+<h2>cube volume (a^3 -> {{a}}^3) = {{cube_output}}</h2>
+<div style="position: relative">
+    <img
+            width="20%"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Necker_cube.svg/1200px-Necker_cube.svg.png"
+            alt="cube"
+    />
+    <p style="position: absolute; bottom: -20px; left: 100px">edge (a = {{a}})</p>
+</div>
+{% endblock %}
