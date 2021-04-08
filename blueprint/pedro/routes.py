@@ -11,6 +11,6 @@ def pedroRoute():
         c = math.sqrt(a**2 + b**2)
         output = c
     class_info = pythag()
-    return render_template("PedroIntroduction.html", output=class_info.output, a=class_info.a, b=class_info.b, name="Pedro")
+    return render_template("pedro.html", output=class_info.output, a=class_info.a, b=class_info.b, name="Pedro")
 
     # return render_template("Introduction.html", name="pedro")

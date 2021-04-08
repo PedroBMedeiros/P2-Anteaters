@@ -2,4 +2,14 @@
 <h1>Hello my name is {{name}}</h1>
 <p>^ This is dynamic to route!</p>
 
+<form method="POST">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <input required type="number" placeholder="a (default: 1)" name="a" />
+    <input required type="number" placeholder="b (default: 1)" name="b" />
+    <input type="submit"/>
+</form>
+<p>a = {{a}}</p>
+<p>b = {{b}}</p>
+<h2>{{mult_output}}</h2>
+
 {% endblock %}
