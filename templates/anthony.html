@@ -1,4 +1,6 @@
 {% extends 'base.html' %} {% block content %}
+<h1>Hello my name is {{name}}</h1>
+<p>^ This is dynamic to route!</p>
 <h3>input cube edge for (a)</h3>
 <form method="POST">
     <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
