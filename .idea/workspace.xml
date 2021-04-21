@@ -20,7 +20,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="cherry's minilab">
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_21,_10_36_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_21,_10_53_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_21,_10_59_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_21__10_36_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_21__10_53_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_2_21__10_59_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_6_21,_7_11_PM_[Default_Changelist]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_6_21__7_11_PM__Default_Changelist_.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_7_21__2_16_PM__Default_Changelist_.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_7_21__2_16_PM__Default_Changelist_.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_7_21__2_16_PM__Default_Changelist_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_7_21__2_16_PM__Default_Changelist_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_7_21__2_16_PM__Default_Changelist_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_4_7_21__2_16_PM__Default_Changelist_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprint/anthony/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprint/anthony/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,7 +86,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="/usr/local/bin/python3.9" />
+      <option name="SDK_HOME" value="C:\Users\giust\AppData\Local\Programs\Python\Python39\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -305,40 +317,6 @@
     <MESSAGE value="update" />
     <MESSAGE value="cherry's minilab" />
     <option name="LAST_COMMIT_MESSAGE" value="cherry's minilab" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="208" y="23" width="1024" height="829" key="#Project_Structure" timestamp="1617852204490">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="208" y="23" width="1024" height="829" key="#Project_Structure/0.23.1440.829@0.23.1440.829" timestamp="1617852204490" />
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617830746690">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1617830746690" />
-    <state width="699" height="183" key="GridCell.Tab.0.bottom" timestamp="1617854248900">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="699" height="183" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1617854248900" />
-    <state width="699" height="183" key="GridCell.Tab.0.center" timestamp="1617854248899">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="699" height="183" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1617854248899" />
-    <state width="699" height="183" key="GridCell.Tab.0.left" timestamp="1617854248898">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="699" height="183" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1617854248898" />
-    <state width="699" height="183" key="GridCell.Tab.0.right" timestamp="1617854248900">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state width="699" height="183" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1617854248900" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1617854585986">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1617854585986" />
-    <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1617852114006">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.829@0.23.1440.829" timestamp="1617852114006" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
