@@ -17,6 +17,6 @@ def anthonyRoute():
 
     alg = ALG()
     alg.set_a(int(request.form.get("a", 3)))
-    cube_output = alg.get_a()**3
     a = alg.get_a()
+    cube_output = a**3
     return render_template("anthony.html", cube_output=cube_output, a=a, name="Anthony")
