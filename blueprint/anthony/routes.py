@@ -7,11 +7,9 @@ def anthonyRoute():
         def __init__(self, a = 0):
             self._a = a
 
-        # getter method
         def get_a(self):
             return self._a
 
-        # setter method
         def set_a(self, x):
             self._a = x
 

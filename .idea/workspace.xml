@@ -21,6 +21,7 @@
   <component name="ChangeListManager">
     <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="cherry's minilab">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blueprint/anthony/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/blueprint/anthony/routes.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
