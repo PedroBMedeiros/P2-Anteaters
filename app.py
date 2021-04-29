@@ -88,7 +88,7 @@ def dashboard():
 @login_required
 def logout():
     logout_user()
-    return redirect(url_for('api.home'))
+    return redirect(url_for('home'))
 
 @app.route('/')
 def home():
