@@ -17,5 +17,19 @@
 <p>b = {{b}}</p>
 <p>c = {{c}}</p>
 <h2>{{output}}</h2>
+<h1>Bubble Sort</h1>
 
+<form method="POST">
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <input type="text" required name="input_text[]" placeholder="0" /> ,
+    <input type="text" required name="input_text[]" placeholder="35" /> ,
+    <input type="text" name="input_text[]" placeholder="53" /> ,
+    <input type="text" name="input_text[]" placeholder="94" /> ,
+    <input type="text" name="input_text[]" placeholder="18" /> ,
+    <input type="text" name="input_text[]" placeholder="46" /> ,
+    <input class="final" type="text" name="input_text[]" placeholder="9" />
+    <input type="submit" value="Sort" />
+</form>
+<h2>Original: {{original}}</h2>
+<h2>Sorted: {{sorted}}</h2>
 {% endblock %}

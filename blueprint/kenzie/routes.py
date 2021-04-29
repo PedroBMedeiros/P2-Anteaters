@@ -36,4 +36,20 @@ def kenzieRoute():
     values = m.get_values()
     output = 'The solution are {0} and {1}'.format(sols[0], sols[1])
 
-    return render_template("Introduction.html", output=output, a=values[0], b=values[1], c=values[2], name="Kenzie")
+    def bubbleSort(arr):
+        n = len(arr)
+        for i in range(n-1):
+            for j in range(0, n-i-1):
+                if arr[j] > arr[j+1] :
+                    arr[j], arr[j+1] = arr[j+1], arr[j]
+
+    original = request.form.getlist('input_text[]')
+    arr = [1, 2]
+    if request.method != 'GET':
+        if original[0].isnumeric():
+            arr = [int(i) for i in original]
+        else:
+            arr = original
+        bubbleSort(arr)
+
+    return render_template("Introduction.html", output=output, a=values[0], b=values[1], c=values[2], name="Kenzie", original=original, sorted=arr)
