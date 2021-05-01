@@ -1,17 +1,16 @@
-{% extends "base.html" %}
-
-{% block content %}
+{% extends "base.html" %} {% block content %}
 <h1>Hello my name is {{name}}</h1>
 <p>^ This is dynamic to route!</p>
 
+{% if name == 'Kenzie' %}
 <h1>Quadratic Formula</h1>
 <p>(-b ± (b ** 2 - 4 * a * c) ** 0.5) / 2 * a</p>
 <form method="POST">
-    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-    <input required="true" placeholder="a" type="number" name="a" />
-    <input required="true" placeholder="b" type="number" name="b" />
-    <input required="true" placeholder="c" type="number" name="c" />
-    <input type="submit" />
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+  <input required="true" placeholder="a" type="number" name="a" />
+  <input required="true" placeholder="b" type="number" name="b" />
+  <input required="true" placeholder="c" type="number" name="c" />
+  <input type="submit" />
 </form>
 <p>a = {{a}}</p>
 <p>b = {{b}}</p>
@@ -19,16 +18,85 @@
 <h2>{{output}}</h2>
 <h1>Bubble Sort</h1>
 
+{% elif name == 'Anthony' %}
+<h3>input cube edge for (a)</h3>
 <form method="POST">
-    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
-    <input type="text" required name="input_text[]" placeholder="0" /> ,
-    <input type="text" required name="input_text[]" placeholder="35" /> ,
-    <input type="text" name="input_text[]" placeholder="53" /> ,
-    <input type="text" name="input_text[]" placeholder="94" /> ,
-    <input type="text" name="input_text[]" placeholder="18" /> ,
-    <input type="text" name="input_text[]" placeholder="46" /> ,
-    <input class="final" type="text" name="input_text[]" placeholder="9" />
-    <input type="submit" value="Sort" />
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+  <input required type="number" placeholder="a (default: 3)" name="a" />
+  <input type="submit" />
+</form>
+<h2>cube volume (a^3 -> {{a}}^3) = {{cube_output}}</h2>
+<div style="position: relative">
+  <img
+    width="20%"
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Necker_cube.svg/1200px-Necker_cube.svg.png"
+    alt="cube"
+  />
+  <p style="position: absolute; bottom: -20px; left: 100px">edge (a = {{a}})</p>
+</div>
+
+{% elif name == 'Naweid' %}
+
+<form method="POST">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+  <input required type="number" placeholder="a (default: 1)" name="a" />
+  <input required type="number" placeholder="b (default: 1)" name="b" />
+  <input type="submit" />
+</form>
+<p>a = {{a}}</p>
+<p>b = {{b}}</p>
+<h2>{{add_output}}</h2>
+
+{% elif name == 'Pedro'%}
+
+<style>
+  h1 {
+    text-align: center;
+    font-family: "Roboto", roboto;
+    font-size: 80px;
+    color: rgb(0, 255, 0);
+  }
+
+  h2 {
+    text-align: center;
+    font-family: "Roboto", roboto;
+  }
+
+  h4 {
+    text-align: center;
+    font-family: "Roboto", roboto;
+    font-size: 20px;
+  }
+
+  body {
+    background-image: url("https://i.pinimg.com/originals/1e/ef/c5/1eefc5567dc5c55f67ef6849b9235582.jpg");
+  }
+</style>
+
+<h1>Pythagorean Theorem Calculator</h1>
+<h2>a^2 + b^2 = c^2</h2>
+<form method="POST">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+  <input required placeholder="a" type="number" name="a" />
+  <input required placeholder="b" type="number" name="b" />
+  <input type="submit" />
+</form>
+<h3>a = {{a}}</h3>
+<h3>b = {{b}}</h3>
+<h3>c= {{output}}</h3>
+
+{% endif %}
+
+<form method="POST">
+  <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+  <input type="text" required name="input_text[]" placeholder="0" /> ,
+  <input type="text" required name="input_text[]" placeholder="35" /> ,
+  <input type="text" name="input_text[]" placeholder="53" /> ,
+  <input type="text" name="input_text[]" placeholder="94" /> ,
+  <input type="text" name="input_text[]" placeholder="18" /> ,
+  <input type="text" name="input_text[]" placeholder="46" /> ,
+  <input class="final" type="text" name="input_text[]" placeholder="9" />
+  <input type="submit" value="Sort" />
 </form>
 
 <h2>Original: {{original}}</h2>
