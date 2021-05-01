@@ -28,4 +28,4 @@ def pedroRoute():
             arr = original
         bubbleSort(arr)
 
-    return render_template("pedro.html", output=class_info.pythag_output, a=class_info.a, b=class_info.b, name="Pedro", original=original, sorted=arr)
+    return render_template("Introduction.html", output=class_info.pythag_output, a=class_info.a, b=class_info.b, name="Pedro", original=original, sorted=arr)

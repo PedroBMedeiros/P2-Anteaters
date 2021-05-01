@@ -26,4 +26,4 @@ def naweidRoute():
             arr = original
         bubbleSort(arr)
         
-    return render_template("naweid.html", add_output=nawo.add_output, a=add.a, b=add.b, name="Naweid")
+    return render_template("Introduction.html", add_output=nawo.add_output, a=add.a, b=add.b, name="Naweid")

@@ -34,4 +34,4 @@ def anthonyRoute():
             arr = original
         bubbleSort(arr)
 
-    return render_template("anthony.html", cube_output=cube_output, a=a, name="Anthony", original=original, sorted=arr)
+    return render_template("Introduction.html", cube_output=cube_output, a=a, name="Anthony", original=original, sorted=arr)
