@@ -13,7 +13,13 @@ We are creating an online planner that consists of a to do list, a dynamic calen
 - Raspberry Pi
 - HTML/CSS
 
+## Bubble Sort Lab 
 
+[Mackenzie](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/kenzie/routes.py#L39-L55)
+[Anthony](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/anthony/routes.py#L21-L37)
+[Pedro](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/pedro/routes.py#L15-L31)
+[Naweid](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/naweid/routes.py#L13-L29)
+[Cherry]()
 
 ## Links for Crossover
 
