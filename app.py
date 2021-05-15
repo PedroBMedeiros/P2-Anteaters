@@ -77,7 +77,17 @@ def login():
 
     return render_template('login.html', form=form)
 
-# ADD IT HERE KENZIE
+@app.route('/signup', methods=['GET', 'POST'])
+def signup():
+    form = RegisterForm()
+
+    if form.validate_on_submit():
+        hashed_password = generate_password_hash(form.password.data, method='sha256')
+        new_user = User(username=form.username.data, email=form.email.data, password=hashed_password)
+        db.session.add(new_user)
+        db.session.commit()
+        return redirect(url_for('login'))
+    return render_template('signup.html', form=form)
 
 @app.route('/dashboard')
 @login_required
