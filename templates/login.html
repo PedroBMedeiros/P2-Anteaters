@@ -1,10 +1,41 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Login</title>
-</head>
-<body>
-
-</body>
-</html>
+{% extends "base.html" %} {% block content %}
+<form method="POST" action="/login">
+    <h2>Login</h2>
+    <input type="hidden" name="csrf_token" value="{{ csrf_token() }}" />
+    <div>
+        <label for="username">Username</label>
+        <input
+                id="username"
+                name="username"
+                required
+                type="text"
+                placeholder="Enter username"
+                value=""
+        />
+    </div>
+    <div>
+        <label for="password">Password</label>
+        <input
+                id="password"
+                name="password"
+                required
+                type="password"
+                placeholder="Enter password"
+                value=""
+        />
+    </div>
+    <label>
+        <p>Remember me</p>
+        <input
+                id="remember"
+                name="remember"
+                type="checkbox"
+                checked="checked"
+                value="y"
+        />
+        <span></span>
+    </label>
+    <p>Not Registered?<a href="signup"> Create an account.</a></p>
+    <button type="submit">Login</button>
+</form>
+{% endblock content %}

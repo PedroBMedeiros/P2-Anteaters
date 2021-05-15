@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Yes</title>
-</head>
-<body>
+{% extends 'base.html' %}{% block content %}
 
-</body>
-</html>
+<h1>hi, {{name}}</h1>
+<a href="{{ url_for('logout')}}">logout</a>
+{% endblock%}
