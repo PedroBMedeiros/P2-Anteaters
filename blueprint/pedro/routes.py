@@ -2,7 +2,6 @@ from flask import render_template, Blueprint, request
 import math
 pedro = Blueprint('Pedro', __name__)
 
-
 @pedro.route("/pedro", methods=['GET','POST'])
 def pedroRoute():
     class pythag:
