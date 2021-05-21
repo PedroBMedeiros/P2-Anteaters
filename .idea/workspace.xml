@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="cherry's minilab">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="using react for the functionality aspect of the website and created daily notecards">
+      <change afterPath="$PROJECT_DIR$/.idea/P2-Anteaters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/signup.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,8 +158,8 @@
     <list>
       <item itemvalue="Python.app" />
       <item itemvalue="Python.main" />
-      <item itemvalue="Python.routes" />
       <item itemvalue="Python.wsgi" />
+      <item itemvalue="Python.routes" />
     </list>
     <recent_temporary>
       <list>
@@ -306,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617854578890</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="using react for the functionality aspect of the website and created daily notecards">
+      <created>1621576528725</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1621576528725</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -332,7 +338,8 @@
     <MESSAGE value="added cherry's page on website" />
     <MESSAGE value="update" />
     <MESSAGE value="cherry's minilab" />
-    <option name="LAST_COMMIT_MESSAGE" value="cherry's minilab" />
+    <MESSAGE value="using react for the functionality aspect of the website and created daily notecards" />
+    <option name="LAST_COMMIT_MESSAGE" value="using react for the functionality aspect of the website and created daily notecards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="23" width="1024" height="829" key="#Project_Structure" timestamp="1621052393972">
@@ -371,10 +378,10 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="208" y="23" width="1024" height="829" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1621574552788" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1617854585986">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1621576538467">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1617854585986" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1621576538467" />
     <state x="334" y="133" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621052521893">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
