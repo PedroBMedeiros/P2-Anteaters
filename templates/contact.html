@@ -1,174 +1,68 @@
 {% extends "base.html" %} {% block content %}
 <html>
-    <head>
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <style>
-            body {
-              font-family: Arial, Helvetica, sans-serif;
-              margin: 0;
-            }
-
-            html {
-              box-sizing: border-box;
-            }
-
-            *, *:before, *:after {
-              box-sizing: inherit;
-            }
-
-            .column {
-              float: left;
-              width: 20%;
-              margin-bottom: 16px;
-              padding: 0 8px;
-            }
-
-            .card {
-              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-              margin: 8px;
-            }
-
-            .about-section {
-              padding: 50px;
-              text-align: center;
-              background-color: #474e5d;
-              color: white;
-            }
-
-            .container {
-              padding: 0 16px;
-            }
-
-            .container::after, .row::after {
-              content: "";
-              clear: both;
-              display: table;
-            }
-
-            .title {
-              color: grey;
-              font-family: "Lucida Console", "Courier New", monospace;
-            }
-
-            .maintitle {
-                color: white;
-                font-family: "Lucida Console", "Courier New", monospace;
-                font-size: 70px;
-            }
-
-            .button {
-              border: none;
-              outline: 0;
-              display: inline-block;
-              padding: 8px;
-              color: white;
-              background-color: #000;
-              text-align: center;
-              cursor: pointer;
-              width: 100%;
-            }
-
-            .button:hover {
-              background-color: #555;
-            }
-
-            @media screen and (max-width: 650px) {
-              .column {
-                width: 100%;
-                display: block;
-              }
-            }
-        </style>
-    </head>
-    <body>
-        <div class="about-section">
-            <center><h1 class="maintitle">About Us</h1></center>
-            <center><p class="maintitle">We are the P2-Anteaters!</p></center>
-        </div>
-        <div class="row">
-            <div class="column">
-                <div class="card">
-                    <img src="static/kenzieprofilepic.png" alt="Kenzie" style="width:100%">
-                    <div class="container">
-                        <h2 class="title">Mackenzie Aboy</h2>
-                        <p class="title">Scrum Leader</p>
-                        <p class="title">Some text that describes me lorem ipsum ipsum lorem.</p>
-                        <p class="title">Github: kenzie-rylie</p>
-                        <p><button class="button">Contact</button></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="static/anthonyprofilepic.png" alt="Anthony" style="width:100%">
-                    <div class="container">
-                        <h2 class="title">Anthony Giustiniano</h2>
-                        <p class="title">Team Member</p>
-                        <p class="title">Some text that describes me lorem ipsum ipsum lorem.</p>
-                        <p class="title">Github: Giustanthony</p>
-                        <p><button class="button">Contact</button></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="static/pedroprofilepic.png" alt="Pedro" style="width:100%">
-                    <div class="container">
-                        <h2 class="title">Pedro de Medeiros</h2>
-                        <p class="title">Team Member</p>
-                        <p class="title">Some text that describes me lorem ipsum ipsum lorem.</p>
-                        <p class="title">Github: PedroBMedeiros</p>
-                        <p><button class="button">Contact</button></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="static/naweidprofilepic.png" alt="Naweid" style="width:100%">
-                    <div class="container">
-                        <h2 class="title">Naweid Hassanzadeh</h2>
-                        <p class="title">Team Member</p>
-                        <p class="title">Some text that describes me lorem ipsum ipsum lorem.</p>
-                        <p class="title">Github: Naweid</p>
-                        <p class="title"><button class="button">Contact</button></p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="column">
-                <div class="card">
-                    <img src="static/cherryprofilepic.png" alt="Cherry" style="width:100%">
-                    <div class="container">
-                        <h2 class="title">Cherry</h2>
-                        <p class="title">Team Member</p>
-                        <p class="title">Some text that describes me lorem ipsum ipsum lorem.</p>
-                        <p class="title">Github: YanqiaoD</p>
-                        <p class="title"><button class="button">Contact</button></p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        </body>
-</html>
-{% endblock %}
-
-
-
-
-
-<!--
-<!DOCTYPE html>
-<html lang="en">
 <head>
-    <h1>Contact</h1>
-    <p>We Love Computer Science</p>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            font-family: sans-serif;
+        }
+
+        .contact-title {
+            margin-top: 100px;
+            color: #fff;
+            text-align: center;
+            text-transform: uppercase;
+            transition: all 4s ease-in-out;
+        }
+
+        .contact-title h1 {
+            font-size: 62px;
+            line-height: 20px;
+        }
+
+        .contact-title h2 {
+            font-size: 31px;
+        }
+
+        .contact-form {
+            text-align: center;
+        }
+
+        form {
+            margin-top: 50px;
+            transition: all 4s ease-in-out;
+            text-align: center;
+        }
+
+        .form-control {
+            width: 600px;
+            background: transparent;
+            border: none;
+            outline: none;
+            border-bottom: 1px solid gray;
+            color: #fff;
+            font-size: 18px;
+            margin-bottom: 16px;
+            text-align: center;
+        }
+    </style>
+    <title>Contact Form Design</title>
 </head>
 <body>
-<p>Naweid:</p>
+    <div class="contact-title">
+        <h1>Any Questions?</h1>
+        <h2>Ask away!</h2>
+    </div>
+    <div class="contact-form">
+        <form id="contact-form" method="post" action="">
+            <input name="name" type="text" class="form-control" placeholder="Your Name" required><br>
+            <input name="email" type="email" class="form-control" placeholder="Your Email" required><br>
+            <textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea><br>
+            <input type="submit" class="form-control submit" value="SEND MESSAGE">
+        </form>
+    </div>
 </body>
 </html>
--->
+{% endblock %}
