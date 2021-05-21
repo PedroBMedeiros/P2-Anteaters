@@ -20,11 +20,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="new contact page">
-      <change afterPath="$PROJECT_DIR$/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/P2-Anteaters.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/blueprint/pedro/routes.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/anthonyprofilepic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/cherryprofilepic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/kenzieprofilepic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/naweidprofilepic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/pedroprofilepic.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/Introduction.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/contact.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/signup.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -342,70 +353,6 @@
     <MESSAGE value="cherry's minilab" />
     <MESSAGE value="new contact page" />
     <option name="LAST_COMMIT_MESSAGE" value="new contact page" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="222" y="0" width="1024" height="829" key="#Project_Structure" timestamp="1621060016943">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="222" y="0" key="#Project_Structure/0.0.1536.824@0.0.1536.824" timestamp="1621060016943" />
-    <state x="208" y="23" width="1024" height="829" key="#Project_Structure/0.23.1440.829@0.23.1440.829" timestamp="1617852204490" />
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1617830746690">
-      <screen x="0" y="23" width="1440" height="829" />
-    </state>
-    <state x="184" y="99" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.829@0.23.1440.829" timestamp="1617830746690" />
-    <state width="1877" height="464" key="GridCell.Tab.0.bottom" timestamp="1621557965554">
-      <screen x="1920" y="-162" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="92" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1619831565859" />
-    <state width="1493" height="243" key="GridCell.Tab.0.bottom/0.0.1536.824/-1920.-249.1920.1040@0.0.1536.824" timestamp="1621060768236" />
-    <state width="1877" height="464" key="GridCell.Tab.0.bottom/0.0.1536.824/1920.-162.1920.1040@1920.-162.1920.1040" timestamp="1621557965554" />
-    <state width="1398" height="183" key="GridCell.Tab.0.bottom/0.23.1440.829@0.23.1440.829" timestamp="1619154965519" />
-    <state width="1877" height="464" key="GridCell.Tab.0.center" timestamp="1621557965554">
-      <screen x="1920" y="-162" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="92" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1619831565859" />
-    <state width="1493" height="243" key="GridCell.Tab.0.center/0.0.1536.824/-1920.-249.1920.1040@0.0.1536.824" timestamp="1621060768235" />
-    <state width="1877" height="464" key="GridCell.Tab.0.center/0.0.1536.824/1920.-162.1920.1040@1920.-162.1920.1040" timestamp="1621557965554" />
-    <state width="1398" height="183" key="GridCell.Tab.0.center/0.23.1440.829@0.23.1440.829" timestamp="1619154965518" />
-    <state width="1877" height="464" key="GridCell.Tab.0.left" timestamp="1621557965554">
-      <screen x="1920" y="-162" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="92" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1619831565858" />
-    <state width="1493" height="243" key="GridCell.Tab.0.left/0.0.1536.824/-1920.-249.1920.1040@0.0.1536.824" timestamp="1621060768235" />
-    <state width="1877" height="464" key="GridCell.Tab.0.left/0.0.1536.824/1920.-162.1920.1040@1920.-162.1920.1040" timestamp="1621557965554" />
-    <state width="1398" height="183" key="GridCell.Tab.0.left/0.23.1440.829@0.23.1440.829" timestamp="1619154965517" />
-    <state width="1877" height="464" key="GridCell.Tab.0.right" timestamp="1621557965554">
-      <screen x="1920" y="-162" width="1920" height="1040" />
-    </state>
-    <state width="1877" height="92" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1619831565859" />
-    <state width="1493" height="243" key="GridCell.Tab.0.right/0.0.1536.824/-1920.-249.1920.1040@0.0.1536.824" timestamp="1621060768235" />
-    <state width="1877" height="464" key="GridCell.Tab.0.right/0.0.1536.824/1920.-162.1920.1040@1920.-162.1920.1040" timestamp="1621557965554" />
-    <state width="1398" height="183" key="GridCell.Tab.0.right/0.23.1440.829@0.23.1440.829" timestamp="1619154965518" />
-    <state x="2347" y="31" key="Vcs.Push.Dialog.v2" timestamp="1621535467022">
-      <screen x="1920" y="-162" width="1920" height="1040" />
-    </state>
-    <state x="2347" y="31" key="Vcs.Push.Dialog.v2/0.0.1536.824/1920.-162.1920.1040@1920.-162.1920.1040" timestamp="1621535467022" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1617854585986" />
-    <state x="2603" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621535462457">
-      <screen x="1920" y="-162" width="1920" height="1040" />
-    </state>
-    <state x="-1237" y="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1619831571020" />
-    <state x="2603" y="258" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/1920.-162.1920.1040@1920.-162.1920.1040" timestamp="1621535462457" />
-    <state x="546" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1621060000463" />
-    <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.829@0.23.1440.829" timestamp="1617852114006" />
-    <state x="-967" y="-249" width="974" height="1047" key="dock-window-1" timestamp="1619828899073">
-      <screen x="-1920" y="-249" width="1920" height="1040" />
-    </state>
-    <state x="-967" y="-249" width="974" height="1047" key="dock-window-1/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1619828899073" />
-    <state x="-1369" y="-68" key="new project wizard" timestamp="1621116923616">
-      <screen x="-1920" y="-249" width="1920" height="1040" />
-    </state>
-    <state x="-1369" y="-68" key="new project wizard/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1621116923616" />
-    <state x="2459" y="21" width="840" height="856" key="search.everywhere.popup" timestamp="1621548989896">
-      <screen x="1920" y="-162" width="1920" height="1040" />
-    </state>
-    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824/-1920.-249.1920.1040@0.0.1536.824" timestamp="1619826993753" />
-    <state x="2459" y="21" width="840" height="856" key="search.everywhere.popup/0.0.1536.824/1920.-162.1920.1040@1920.-162.1920.1040" timestamp="1621548989896" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
