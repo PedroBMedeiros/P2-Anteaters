@@ -19,11 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="using react for the functionality aspect of the website and created daily notecards">
-      <change afterPath="$PROJECT_DIR$/.idea/P2-Anteaters.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/relationships.db" beforeDir="false" afterPath="$PROJECT_DIR$/relationships.db" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -312,7 +310,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621576528725</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="readme">
+      <created>1621577013837</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1621577013837</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -331,7 +336,6 @@
     <MESSAGE value="blueprint. still need to add a few more things but I will do that later" />
     <MESSAGE value="deployment process" />
     <MESSAGE value="Individual mini lab... classes and objects" />
-    <MESSAGE value="readme" />
     <MESSAGE value="fixed mini lab" />
     <MESSAGE value="updated mini lab" />
     <MESSAGE value="added cherry to blueprint" />
@@ -339,7 +343,8 @@
     <MESSAGE value="update" />
     <MESSAGE value="cherry's minilab" />
     <MESSAGE value="using react for the functionality aspect of the website and created daily notecards" />
-    <option name="LAST_COMMIT_MESSAGE" value="using react for the functionality aspect of the website and created daily notecards" />
+    <MESSAGE value="readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="readme" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="23" width="1024" height="829" key="#Project_Structure" timestamp="1621052393972">
@@ -378,10 +383,10 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="208" y="23" width="1024" height="829" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1621574552788" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1621576538467">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1621577017589">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1621576538467" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1621577017589" />
     <state x="334" y="133" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621052521893">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
