@@ -19,13 +19,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< Updated upstream
-    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="update">
-      <change beforePath="$PROJECT_DIR$/client/src/Pages/Auth.jsx" beforeDir="false" />
+    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="using react for the functionality aspect of the website and created daily notecards">
+      <change afterPath="$PROJECT_DIR$/.idea/P2-Anteaters.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
-=======
-    <list default="true" id="041f8307-eb54-4ac9-8bcb-d441af411e8e" name="Default Changelist" comment="new contact page" />
->>>>>>> Stashed changes
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -313,28 +312,7 @@
       <option name="project" value="LOCAL" />
       <updated>1621576528725</updated>
     </task>
-    <task id="LOCAL-00020" summary="readme">
-      <created>1621577013837</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1621577013837</updated>
-    </task>
-    <task id="LOCAL-00021" summary="update">
-      <created>1621580460723</created>
-      <option name="number" value="00021" />
-      <option name="presentableId" value="LOCAL-00021" />
-      <option name="project" value="LOCAL" />
-      <updated>1621580460723</updated>
-    </task>
-    <task id="LOCAL-00022" summary="update">
-      <created>1621580621644</created>
-      <option name="number" value="00022" />
-      <option name="presentableId" value="LOCAL-00022" />
-      <option name="project" value="LOCAL" />
-      <updated>1621580621644</updated>
-    </task>
-    <option name="localTasksCounter" value="23" />
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -353,15 +331,15 @@
     <MESSAGE value="blueprint. still need to add a few more things but I will do that later" />
     <MESSAGE value="deployment process" />
     <MESSAGE value="Individual mini lab... classes and objects" />
+    <MESSAGE value="readme" />
     <MESSAGE value="fixed mini lab" />
     <MESSAGE value="updated mini lab" />
     <MESSAGE value="added cherry to blueprint" />
     <MESSAGE value="added cherry's page on website" />
+    <MESSAGE value="update" />
     <MESSAGE value="cherry's minilab" />
     <MESSAGE value="using react for the functionality aspect of the website and created daily notecards" />
-    <MESSAGE value="readme" />
-    <MESSAGE value="update" />
-    <option name="LAST_COMMIT_MESSAGE" value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="using react for the functionality aspect of the website and created daily notecards" />
   </component>
   <component name="WindowStateProjectService">
     <state x="208" y="23" width="1024" height="829" key="#Project_Structure" timestamp="1621052393972">
@@ -400,19 +378,19 @@
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="208" y="23" width="1024" height="829" key="SettingsEditor/0.23.1440.829@0.23.1440.829" timestamp="1621574552788" />
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1621580624160">
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2" timestamp="1621576538467">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
-    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1621580624160" />
+    <state x="320" y="177" key="Vcs.Push.Dialog.v2/0.23.1440.829@0.23.1440.829" timestamp="1621576538467" />
     <state x="334" y="133" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621052521893">
       <screen x="0" y="23" width="1440" height="829" />
     </state>
     <state x="334" y="133" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.1440.829@0.23.1440.829" timestamp="1621052521893" />
-    <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1621663272170">
-      <screen x="0" y="23" width="1440" height="829" />
+    <state x="-1237" y="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1619831571020">
+      <screen x="-1920" y="-249" width="1920" height="1040" />
     </state>
     <state x="-1237" y="171" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824/-1920.-249.1920.1040@-1920.-249.1920.1040" timestamp="1619831571020" />
-    <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.829@0.23.1440.829" timestamp="1621663272170" />
+    <state x="512" y="358" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.829@0.23.1440.829" timestamp="1617852114006" />
     <state x="-967" y="-249" width="974" height="1047" key="dock-window-1" timestamp="1619828899073">
       <screen x="-1920" y="-249" width="1920" height="1040" />
     </state>
