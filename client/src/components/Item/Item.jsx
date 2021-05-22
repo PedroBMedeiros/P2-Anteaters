@@ -9,7 +9,7 @@ export const Item = ({ children, id, refetch, completed, add }) => {
     };
     const response = await axios({
       method: "delete",
-      url: `http://localhost:5000/remove_todo`,
+      url: `http://www.nighthawkplanner.cf/remove_todo`,
       data,
     }).catch((error) => error.response);
     if (response.status === 201) {
@@ -25,7 +25,7 @@ export const Item = ({ children, id, refetch, completed, add }) => {
     };
     const response = await axios({
       method: "put",
-      url: `http://localhost:5000/update_todo/${id}/${attr[0]}`,
+      url: `http://www.nighthawkplanner.cf/update_todo/${id}/${attr[0]}`,
       data,
     }).catch((error) => error.response);
     if (response.status === 201) {

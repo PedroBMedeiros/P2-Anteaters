@@ -9,7 +9,7 @@ export const Dashboard = () => {
   const history = useHistory();
   const { state } = useLocation();
   const { isLoading, isError, data, error, refetch } = useQuery("todos", () =>
-    axios.get(`http://localhost:5000/todos/${state.username}`)
+    axios.get(`http://www.nighthawkplanner.cf/todos/${state.username}`)
   );
 
   const addTodo = async ({ name, desc }) => {
@@ -21,7 +21,7 @@ export const Dashboard = () => {
     console.log(data);
     const response = await axios({
       method: "post",
-      url: `http://localhost:5000/add_todo/${state.username}`,
+      url: `http://www.nighthawkplanner.cf/add_todo/${state.username}`,
       data,
     }).catch((error) => error.response);
     if (response.status === 201) {

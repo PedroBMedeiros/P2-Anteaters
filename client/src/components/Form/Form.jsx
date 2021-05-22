@@ -16,7 +16,7 @@ export const AuthForm = () => {
     };
     const response = await axios({
       method: "post",
-      url: "http://localhost:5000/signup",
+      url: "http://www.nighthawkplanner.cf/signup",
       data,
     }).catch((error) => error.response);
     if (response.status === 201) {
@@ -35,7 +35,7 @@ export const AuthForm = () => {
     console.log(data);
     const response = await axios({
       method: "post",
-      url: "http://localhost:5000/login",
+      url: "http://www.nighthawkplanner.cf/login",
       data,
     }).catch((error) => error.response);
     if (response.status === 200) {
