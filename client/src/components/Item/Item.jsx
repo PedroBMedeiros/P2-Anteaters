@@ -1,8 +1,7 @@
 import React from "react";
 import axios from "axios";
 import { FaRegTrashAlt } from "react-icons/fa";
-import { ItemWrapper } from "./Elements";
-export const Item = ({ children, id, refetch, completed }) => {
+export const Item = ({ children, id, refetch, completed, add }) => {
   const removeTodo = async () => {
     console.log(id);
     const data = {
@@ -34,16 +33,28 @@ export const Item = ({ children, id, refetch, completed }) => {
     }
     console.log(response);
   };
-
+  // completed={completed ? "complete" : "incomplete"}
   return (
-    <ItemWrapper completed={completed ? "complete" : "incomplete"}>
+    <div className="group px-12 py-8 rounded-2xl border-4 bg-white shadow-lg hover:border-indigo-600 duration-200">
       {children}
-      <div className="options">
-        <span onClick={() => updateTodo(["completed", !completed])}>
-          {completed ? "completed" : "incomplete"}
-        </span>
-        <FaRegTrashAlt onClick={removeTodo} />
-      </div>
-    </ItemWrapper>
+      {!add ? (
+        <div className="mt-4">
+          <span
+            onClick={() => updateTodo(["completed", !completed])}
+            className={`float-right rounded-lg px-2 cursor-pointer group active:outline-none active:ring-4 active:ring-opacity-20 select-none ${
+              completed
+                ? "bg-green-100 text-green-600 active:ring-green-600"
+                : "bg-red-100 text-red-600 active:ring-red-600"
+            }`}
+          >
+            {completed ? "completed" : "incomplete"}
+          </span>
+          <FaRegTrashAlt
+            onClick={removeTodo}
+            className="float-left text-red-400 cursor-pointer"
+          />
+        </div>
+      ) : null}
+    </div>
   );
 };
