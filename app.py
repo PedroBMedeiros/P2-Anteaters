@@ -109,16 +109,3 @@ def signup():
     except:
         return 'Something went wrong', 401
 
-@app.route('/login', methods=['GET', 'POST'])
-def login():
-    d = request.get_json()
-    user = User.query.filter_by(username=d['username']).first()
-    if user:
-        if check_password_hash(user.password, d['password']):
-            login_user(user, remember=d['remember'])
-            return 'successful', 200
-
-    return 'failed', 406
-
-if __name__ == "__main__":
-    app.run(debug=True)
