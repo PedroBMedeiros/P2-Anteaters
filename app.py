@@ -88,6 +88,15 @@ def all_todos():
     response = jsonify({'all_todos': todos})
     return response, 200
 
+@app.route('/all_users', methods=["GET"])
+def all_users():
+    user_list = User.query.all()
+    users = []
+    for user in user_list:
+        users.append({'name': user.username})
+    response = jsonify({'all_users': users})
+    return response, 200
+
 @app.route('/signup', methods=['GET','POST'])
 def signup():
     d = request.get_json()
