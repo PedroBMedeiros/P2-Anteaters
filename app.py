@@ -69,7 +69,6 @@ def add_todos(id, attr):
         db.session.commit()
         return 'modified completed', 201
 
-
 @app.route('/todos/<username>', methods=['GET'])
 def todos(username):
     for user in User.query.filter_by(username=username):
@@ -79,6 +78,15 @@ def todos(username):
         response = jsonify({'todos': todos})
         return response
     return 'Request failed, make sure user exists (case sensitive).', 404
+
+@app.route('/all_todos', methods=["GET"])
+def all_todos():
+    todo_list = Todos.query.all()
+    todos = []
+    for todo in todo_list:
+        todos.append({'name': todo.name, 'desc' : todo.desc, 'completed' : todo.completed, "date_added": todo.date_added})
+    response = jsonify({'all_todos': todos})
+    return response, 200
 
 @app.route('/signup', methods=['GET','POST'])
 def signup():
@@ -91,7 +99,6 @@ def signup():
         return 'successful, user created', 201
     except:
         return 'Something went wrong', 401
-
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
