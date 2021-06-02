@@ -13,6 +13,14 @@ We are creating an online planner that consists of a to do list, and a dynamic n
 - Raspberry Pi
 - HTML/CSS
 
+## Project Check-in  -- 6/1/2021
+
+Everything thing is functional, including the to do list, API's and databases.
+
+For the past few weeks we have been researching how to meet our goals, with the REST API, and To-do list and we finally feel like we have got close to the level that we wanted.
+
+Tickets are being created for using API's and like the Crossover API portion of the the requiremnts, and future ideas for enhancement
+
 ## Bubble Sort Lab 
 
 [Mackenzie](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/kenzie/routes.py#L39-L55)
