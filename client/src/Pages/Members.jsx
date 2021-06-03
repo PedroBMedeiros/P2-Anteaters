@@ -7,7 +7,7 @@ export const Members = () => {
   return (
     <div>
       <Formik
-        initialValues={{ member: "Kenzie" }}
+        initialValues={{ member: "Mackenzie" }}
         onSubmit={(values) => {
           history.push(`/member/${values.member}`);
         }}
@@ -20,7 +20,7 @@ export const Members = () => {
                 component="select"
                 className="block w-full rounded-md border-gray-300 shadow-sm focus:border-indigo-300 focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
               >
-                <option value="Kenzie">Kenzie</option>
+                <option value="Mackenzie">Mackenzie</option>
                 <option value="Anthony">Anthony</option>
                 <option value="Pedro">Pedro</option>
                 <option value="Naweid">Naweid</option>

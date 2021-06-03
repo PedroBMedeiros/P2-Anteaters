@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { useHistory } from "react-router-dom";
 import { Formik, Form, Field } from "formik";
+import { CgSpinner } from "react-icons/cg";
 import * as Yup from "yup";
 import axios from "axios";
 import { useStore } from "../../state";
@@ -8,6 +9,8 @@ export const AuthForm = () => {
   const { logIn, setUsername } = useStore();
   const history = useHistory();
   const [loggingIn, setLoggingIn] = useState(false);
+  const [loading, setLoading] = useState(false);
+
   const handleSignup = async ({ username, email, password }) => {
     const data = {
       username,
@@ -16,7 +19,7 @@ export const AuthForm = () => {
     };
     const response = await axios({
       method: "post",
-      url: "http://www.nighthawkplanner.cf/signup",
+      url: "https://p2-anteaters-api.herokuapp.com/signup",
       data,
     }).catch((error) => error.response);
     if (response.status === 201) {
@@ -33,9 +36,10 @@ export const AuthForm = () => {
       remember: remember === undefined ? false : remember,
     };
     console.log(data);
+    setLoading(true);
     const response = await axios({
       method: "post",
-      url: "http://www.nighthawkplanner.cf/login",
+      url: "https://p2-anteaters-api.herokuapp.com/login",
       data,
     }).catch((error) => error.response);
     if (response.status === 200) {
@@ -48,6 +52,7 @@ export const AuthForm = () => {
     } else {
       console.log(response.status);
     }
+    setLoading(false);
   };
 
   const SignupSchema = Yup.object().shape({
@@ -78,7 +83,7 @@ export const AuthForm = () => {
 
   return (
     <div className="w-100">
-      <div className="mt-12 w-1/2 my-0 mx-auto">
+      <div className="mt-12 w-full lg:w-1/2 my-0 mx-auto">
         <h1 className="text-5xl font-bold">{loggingIn ? "Login" : "Signup"}</h1>
         <div className="max-w-full">
           <div className="mt-8 grid grid-cols-1 gap-8">
@@ -128,7 +133,7 @@ export const AuthForm = () => {
                         <label className="inline-flex items-center">
                           <Field
                             type="checkbox"
-                            className="rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"
+                            className="cursor-pointer rounded border-gray-300 text-indigo-600 shadow-sm focus:border-indigo-300 focus:ring focus:ring-offset-0 focus:ring-indigo-200 focus:ring-opacity-50"
                             name="remember"
                           />
                           <span className="ml-2 text-gray-500">
@@ -139,9 +144,14 @@ export const AuthForm = () => {
                     </div>
                     <button
                       type="submit"
+                      disabled={loading ? true : false}
                       className="mt-4 w-full flex-none bg-indigo-600 hover:bg-indigo-700 text-white text-lg leading-6 font-semibold py-2 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-indigo-700 focus:outline-none transition-colors duration-200"
                     >
-                      Login
+                      {loading ? (
+                        <CgSpinner className="animate-spin inline h-5 w-5" />
+                      ) : (
+                        "Login"
+                      )}
                     </button>
                   </Form>
                 )}
@@ -205,9 +215,14 @@ export const AuthForm = () => {
                     ) : null}
                     <button
                       type="submit"
+                      disabled={loading ? true : false}
                       className="mt-6 w-full flex-none bg-indigo-600 hover:bg-indigo-700 text-white text-lg leading-6 font-semibold py-2 px-6 border border-transparent rounded-xl focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-indigo-700 focus:outline-none transition-colors duration-200"
                     >
-                      Signup
+                      {loading ? (
+                        <CgSpinner className="animate-spin inline h-5 w-5" />
+                      ) : (
+                        "Signup"
+                      )}
                     </button>
                   </Form>
                 )}

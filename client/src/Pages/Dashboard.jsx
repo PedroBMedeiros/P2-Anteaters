@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { useQuery } from "react-query";
 import axios from "axios";
-import { Link, useHistory, useLocation } from "react-router-dom";
+import { useHistory, useLocation } from "react-router-dom";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 import { Item } from "../components/Item";
@@ -9,9 +9,8 @@ export const Dashboard = () => {
   const history = useHistory();
   const { state } = useLocation();
   const { isLoading, isError, data, error, refetch } = useQuery("todos", () =>
-    axios.get(`http://www.nighthawkplanner.cf/todos/${state.username}`)
+    axios.get(`https://p2-anteaters-api.herokuapp.com/todos/${state.username}`)
   );
-
   const addTodo = async ({ name, desc }) => {
     const data = {
       name,
@@ -21,7 +20,7 @@ export const Dashboard = () => {
     console.log(data);
     const response = await axios({
       method: "post",
-      url: `http://www.nighthawkplanner.cf/add_todo/${state.username}`,
+      url: `https://p2-anteaters-api.herokuapp.com/add_todo/${state.username}`,
       data,
     }).catch((error) => error.response);
     if (response.status === 201) {
@@ -48,9 +47,6 @@ export const Dashboard = () => {
 
   return (
     <div className="w-100">
-      {/* <button onClick={() => history.push({ pathname: "/auth" })}>
-        Logout
-      </button> */}
       <div className="mt-2 my-0 mx-auto">
         <div className="text-center text-6xl">
           {state !== undefined ? (

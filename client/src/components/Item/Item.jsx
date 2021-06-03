@@ -9,7 +9,7 @@ export const Item = ({ children, id, refetch, completed, add }) => {
     };
     const response = await axios({
       method: "delete",
-      url: `http://www.nighthawkplanner.cf/remove_todo`,
+      url: `https://p2-anteaters-api.herokuapp.com/remove_todo`,
       data,
     }).catch((error) => error.response);
     if (response.status === 201) {
@@ -25,7 +25,7 @@ export const Item = ({ children, id, refetch, completed, add }) => {
     };
     const response = await axios({
       method: "put",
-      url: `http://www.nighthawkplanner.cf/update_todo/${id}/${attr[0]}`,
+      url: `https://p2-anteaters-api.herokuapp.com/update_todo/${id}/${attr[0]}`,
       data,
     }).catch((error) => error.response);
     if (response.status === 201) {
@@ -33,6 +33,7 @@ export const Item = ({ children, id, refetch, completed, add }) => {
     }
     console.log(response);
   };
+
   // completed={completed ? "complete" : "incomplete"}
   return (
     <div className="group px-12 py-8 rounded-2xl border-4 bg-white shadow-lg hover:border-indigo-600 duration-200">

@@ -13,7 +13,7 @@ export const Kenzie = () => {
   const [res, setRes] = useState(quadratic(2, 5, 2));
   return (
     <div>
-      <Heading name="Kenzie" />
+      <Heading name="Mackenzie" />
       <Label>Quadratic Formula:</Label>
       <Formik
         initialValues={{ a: "", b: "", c: "" }}

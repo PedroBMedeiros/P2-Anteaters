@@ -1,12 +1,12 @@
 import React from "react";
-import { Link, useParams } from "react-router-dom";
+import { useParams } from "react-router-dom";
 import { Kenzie, Anthony, Pedro, Naweid, Cherry } from ".";
 import { BubbleSort } from "./BubbleSort";
 export const MemberTemplate = () => {
   let { member } = useParams();
   return (
     <div>
-      {member === "Kenzie" ? (
+      {member === "Mackenzie" ? (
         <Kenzie />
       ) : member === "Anthony" ? (
         <Anthony />
