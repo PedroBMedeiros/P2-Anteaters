@@ -2,7 +2,7 @@
 
 Welcome to our Trimester 3 Night Hawk Planner Project. 
 
-We are creating an online planner that consists of a to do list, a dynamic calendar, and a dynamic number that lists the amount of things that needs to be done. The user will be able to create an account. We will be pulling information that will be shown on specific dates on the calendar, like holidays or games in a specific sport.
+We are creating an online planner that consists of a to do list, and a dynamic number that lists the amount of things that needs to be done. The user will be able to create an account. We will be pulling information that will be shown on specific dates on the calendar, like holidays or games in a specific sport.
 
 ## Technical Requirements
 
@@ -12,6 +12,14 @@ We are creating an online planner that consists of a to do list, a dynamic calen
 - React
 - Raspberry Pi
 - HTML/CSS
+
+## Project Check-in  -- 6/1/2021
+
+Everything thing is functional, including the to do list, API's and databases.
+
+For the past few weeks we have been researching how to meet our goals, with the REST API, and To-do list and we finally feel like we have got close to the level that we wanted.
+
+Tickets are being created for using API's and like the Crossover API portion of the the requiremnts, and future ideas for enhancement
 
 ## Bubble Sort Lab 
 
@@ -37,9 +45,9 @@ For point 1 I created my new class with the corresponding objects inside of my p
 
 For the first task, I created a personal blueprint under /Anthony. I then proceeded to create a class called Info, which allowed me to complete my next task in creating an object as I was able to convert my class into an object. I finished this off by making the object into a jinja variable and rendering it. I would say the thing I am most proud of is the simplicity of it all as I was able to answer all of the requirements and create a functioning system with only a few lines of code. 
 
-``Pedro``: [Commit]()
+``Pedro``: [Commit](https://github.com/PedroBMedeiros/P2-Anteaters/commit/25d000ebbcc0a873786496ccd679c14615de1b45#diff-568470d013cd12e4f388206520da39ab9a4e4c3c6b95846cbc281abc1ba3c959)
 
-For the **first binary point**, I built a new class with the associated objects within my personal route -- For the **second binary point**, on line 6, I defined a class called *Intro*. I'm using this route to store information about my name as well as any other information I may want to add in the future -- For the **third stage**, I made an object out of this class. Line 8 is where this object was made -- For the **fourth point**, I show the data by making my object a jinja variable, which allows me to show it on my page -- My **WOW** for this check-in was that I was able to add a real time clock to the navbar on the website. -- [Practice Test](https://docs.google.com/document/d/1iRuTxr_HcBfSpD-JJubtWPwv1-Jk5tKrxsIrzKTXIqY/edit)
+For the **first binary point**, I built a new class with the associated objects within my personal route -- For the **second binary point**, on line 6, I defined a class called *Intro*. I'm using this route to store information about my name as well as any other information I may want to add in the future -- For the **third stage**, I made an object out of this class. Line 8 is where this object was made -- For the **fourth point**, I show the data by making my object a jinja variable, which allows me to show it on my page -- My **WOW** for this check-in was that I was able to add a real time clock to the navbar on the website. -- [Practice Test](https://docs.google.com/document/d/1iRuTxr_HcBfSpD-JJubtWPwv1-Jk5tKrxsIrzKTXIqY/edit). Since we now have tranferred to using react, me and Anthony have each created a route to simplify the crossover's experience when creting their connection to our project and vice versa.
 
 ``Naweid``: [Commit](https://github.com/PedroBMedeiros/P2-Anteaters/commit/0d6076d1f8b38a3fe1132bc776d27234df28e879#diff-912f2989dafca53eafd7e883ae77456faaef67846d74dd560016ff15b9ccf709R2-R12)
 
@@ -53,7 +61,7 @@ Here you will find our progress throughout this project. We use tickets to track
 
 ``Mackenzie`` She is going to work with Naweid on handling all the HTML and CSS aspects in making the project look nice and formating the planner to function better.
 
-``Pedro`` He is going to create the sign up system/login system and deploy our project as well as create a domain for our website.
+``Pedro`` He is going to create the sign up system/login system and deploy our project as well as create a domain for our website. Creating the connection to crossover group.
 
 ``Naweid`` He is going to work with Kenzie on handling the HTML and CSS aspects and he is going to help Pedro with the login system.
 
