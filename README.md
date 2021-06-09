@@ -2,7 +2,7 @@
 
 Welcome to our Trimester 3 Night Hawk Planner Project. 
 
-We are creating an online planner that consists of a to do list, and a dynamic number that lists the amount of things that needs to be done. The user will be able to create an account. We will be pulling information that will be shown on specific dates on the calendar, like holidays or games in a specific sport.
+We are creating an online planner that consists of a to do list, and a dynamic number that lists the amount of things that needs to be done. The user will be able to create an account. We will be pulling information that will be shown through reviews for certain games.
 
 ## Technical Requirements
 
@@ -19,7 +19,7 @@ Everything thing is functional, including the to do list, API's and databases.
 
 For the past few weeks we have been researching how to meet our goals, with the REST API, and To-do list and we finally feel like we have got close to the level that we wanted.
 
-Tickets are being created for using API's and like the Crossover API portion of the the requiremnts, and future ideas for enhancement
+Tickets are being created for using API's and like the Crossover API portion of the the requiremnts, and future ideas for enhancement. Deployment on to Mr. Mortensen's hardware is now in progress.
 
 ## Bubble Sort Lab 
 
@@ -48,6 +48,7 @@ For the first task, I created a personal blueprint under /Anthony. I then procee
 ``Pedro``: [Commit](https://github.com/PedroBMedeiros/P2-Anteaters/commit/25d000ebbcc0a873786496ccd679c14615de1b45#diff-568470d013cd12e4f388206520da39ab9a4e4c3c6b95846cbc281abc1ba3c959)
 
 For the **first binary point**, I built a new class with the associated objects within my personal route -- For the **second binary point**, on line 6, I defined a class called *Intro*. I'm using this route to store information about my name as well as any other information I may want to add in the future -- For the **third stage**, I made an object out of this class. Line 8 is where this object was made -- For the **fourth point**, I show the data by making my object a jinja variable, which allows me to show it on my page -- My **WOW** for this check-in was that I was able to add a real time clock to the navbar on the website. -- [Practice Test](https://docs.google.com/document/d/1iRuTxr_HcBfSpD-JJubtWPwv1-Jk5tKrxsIrzKTXIqY/edit). Since we now have tranferred to using react, me and Anthony have each created a route to simplify the crossover's experience when creting their connection to our project and vice versa.
+Now working on deploying to Mr. Mortensen's hardware.
 
 ``Naweid``: [Commit](https://github.com/PedroBMedeiros/P2-Anteaters/commit/0d6076d1f8b38a3fe1132bc776d27234df28e879#diff-912f2989dafca53eafd7e883ae77456faaef67846d74dd560016ff15b9ccf709R2-R12)
 
