@@ -13,7 +13,7 @@ We are creating an online planner that consists of a to do list, and a dynamic n
 - Raspberry Pi
 - HTML/CSS
 
-## Project Check-in  -- 6/1/2021
+## Project Check-in  -- 6/8/2021
 
 Everything thing is functional, including the to do list, API's and databases.
 
