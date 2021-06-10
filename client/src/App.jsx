@@ -26,6 +26,9 @@ function App() {
           <Route path="/member/:member">
             <MemberTemplate />
           </Route>
+          <Route path="/easter_egg">
+            <EasterEgg />
+          </Route>
         </Switch>
       </Router>
     </div>
@@ -33,3 +36,30 @@ function App() {
 }
 
 export default App;
+
+export const EasterEgg = () => {
+  const mockdata = [
+    {
+      name: "Max",
+      game: "God of war",
+    },
+    {
+      name: "Irfan",
+      game: "Injustice",
+    },
+    {
+      name: "Andrew",
+      game: "Fortnite",
+    },
+  ];
+  return (
+    <div>
+      {mockdata.map((d) => (
+        <>
+          <h1 className="text-3xl text-indigo-500">{d.name}</h1>
+          <h3 className="text-xl mb-4">{d.game}</h3>
+        </>
+      ))}
+    </div>
+  );
+};
