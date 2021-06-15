@@ -87,7 +87,7 @@ export const Home = () => {
           Behind the scenes our application is connected and synced with a
           custom flask api with a dedicated database. Paired with a ReactJS
           frontend, our backend server can deliver blazing interaction speeds to
-          you, the user.
+          you, the user. We have our API deployed to Mr. Mortensen's hardware under antsapi.nighthawkcodingsociety.com
           <div></div>
         </Feature>
 
