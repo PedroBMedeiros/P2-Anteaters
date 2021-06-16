@@ -16,23 +16,48 @@ We created an online planner that consists of a to do list. The user is able to 
 - HTML/CSS
 - Rest API
 
-## Project Check-in  -- 6/8/2021
+## Project Check-in  -- 6/16/2021
 
-Everything thing is functional, including the to do list, API's and databases.
+Everything thing is functional, including the to do list, API's and databases. The project is now complete
 
-For the past few weeks we have been researching how to meet our goals, with the REST API, and To-do list and we finally feel like we have got close to the level that we wanted.
+We just recently completed deployment. The backend is deployed on Mr. Mortensen's hardware. While the front end is deployed locally. The api is deployed on Mr. Mortensen's python led. And the nginx is deployed on society white. 
 
-Tickets are being created for using API's and like the Crossover API portion of the the requiremnts, and future ideas for enhancement. Deployment on to Mr. Mortensen's hardware is now in progress.
+The [commercial]() is ready to introduce newcomers to the website.
 
-## Minilabs
+## Minilabs - https://p2anteaters-todos.tk/members
 
 [Mackenzie](https://p2anteaters-todos.tk/member/Mackenzie)
-[Anthony](https://p2anteaters-todos.tk/member/Anthony)
-[Pedro](https://p2anteaters-todos.tk/member/Pedro)
-[Naweid](https://p2anteaters-todos.tk/member/Naweid)
-[Cherry](https://p2anteaters-todos.tk/member/Cherry)
+- [Quadratic Formula](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/Kenzie.jsx#L16-L37)
+- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
 
-## Links for Crossover
+[Anthony](https://p2anteaters-todos.tk/member/Anthony)
+- [Cube Formula](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/Anthony.jsx#L16-L34)
+- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
+
+[Pedro](https://p2anteaters-todos.tk/member/Pedro)
+- [Pythagorean Theorem]()
+- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
+
+[Naweid](https://p2anteaters-todos.tk/member/Naweid)
+- [Addition Formula]()
+- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
+
+[Cherry](https://p2anteaters-todos.tk/member/Cherry)
+- [Multiplication Formula]()
+- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
+
+# Roles
+
+``Anthony`` He is going to handle all the SQLalchemey and python mechanics as he is going to create the database, create a rest api, and handle the backend with the planner.
+
+``Mackenzie`` She is going to work with Naweid on handling all the HTML and CSS aspects in making the project look nice and formating the planner to function better.
+
+``Pedro`` He is going to create the sign up system/login system and deploy our project as well as create a domain for our website.
+
+``Naweid`` He is going to work with Kenzie on handling the HTML and CSS aspects and he is going to help Pedro with the login system.
+
+
+## Links for Initial Crossover
 
 |  |  | |  
 | :---: | :---: | :---: | 
@@ -58,16 +83,6 @@ Now working on deploying to Mr. Mortensen's hardware.
 For the first point, I created a new class in my blueprent under routes.py. For the second point, I was able to define/enhance this class by naming it intro, which I can use to create an object out of. Forthe third point, I was able to create the object out of the class "intro" on line 8 where it states "intro=Intro()." For the fourth point, I was able to display the data by making it a jinja variable. For the last and final point, my wow factor is that I was able to concise my code in order to make the code simple, efficent, and get the points needed.
 # Delivery of Running Code and Big Ticket Items: [Scrum Board](https://github.com/PedroBMedeiros/P2-Anteaters/projects/1)
 Here you will find our progress throughout this project. We use tickets to track our goals, items that needs to be done, items in progress, and items that are finished and deployed.
-
-# Roles
-
-``Anthony`` He is going to handle all the SQLalchemey and python mechanics as he is going to create the database, create a rest api, and handle the backend with the planner.
-
-``Mackenzie`` She is going to work with Naweid on handling all the HTML and CSS aspects in making the project look nice and formating the planner to function better.
-
-``Pedro`` He is going to create the sign up system/login system and deploy our project as well as create a domain for our website. Creating the connection to crossover group.
-
-``Naweid`` He is going to work with Kenzie on handling the HTML and CSS aspects and he is going to help Pedro with the login system.
 
 ### [Contributes](https://github.com/PedroBMedeiros/P2-Anteaters/graphs/contributors)
 Here you will find each contributors' progress, commit history, and amount of commits
