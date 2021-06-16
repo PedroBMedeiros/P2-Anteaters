@@ -65,7 +65,7 @@ The [commercial]() is ready to introduce newcomers to the website.
 | [runtime link](http://75.6.165.166:5000/)| [Lions Github](https://github.com/MaxVukovich/P2Lions) | [Lions Crossover](https://docs.google.com/document/d/1duoyskf4muDNbS6AEM72v9KyWRofymjHcliAa2HA2Go/edit)| 
 
 ## [Mini Lab Write up](https://docs.google.com/document/d/1bvwxZ3gezqBtiqN9OtmYs8lHBbSVsHPukqHPYjIpmyM/edit?usp=sharing)
-``Kenzie``: [Commit](https://github.com/PedroBMedeiros/P2-Anteaters/commit/28c264e5d921c1bed5ed72bc7192a478d82515b3#diff-878936e3665e0b47f880076edd0a10f6fc5eb7a473927a0aa374c7e3b4384def)
+``Kenzie``: 
 
 For point 1 I created my new class with the corresponding objects inside of my personal route. For the second point I defined a class on line 5 name "Intro", I am using this route to store information about my name and also any other data I might want to add in the future. I also created an object out of this class for the third point. This object was created on line 8. For the fourth point I display the data by passing my object in as a jinja variable so that I can display it on my page. For the final point, one thing that I became aware of when doing this was the flexibility of classes, I found it really interesting, easy and important that I could quickly add new data whilst also staying very organized.
 
