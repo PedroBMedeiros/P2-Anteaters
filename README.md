@@ -1,8 +1,10 @@
 # P2 Anteaters
 
-Welcome to our Trimester 3 Night Hawk Planner Project. 
+Welcome to our Trimester 3 Night Hawk Planner Project.
 
-We are creating an online planner that consists of a to do list, and a dynamic number that lists the amount of things that needs to be done. The user will be able to create an account. We will be pulling information that will be shown through reviews for certain games.
+This is the link to our website -- https://p2anteaters-todos.tk/
+
+We created an online planner that consists of a to do list. The user is able to create an account and login after that. We pulled information through an API with a crossover group that is shown by displaying the weather in different places. 
 
 ## Technical Requirements
 
@@ -12,6 +14,7 @@ We are creating an online planner that consists of a to do list, and a dynamic n
 - React
 - Raspberry Pi
 - HTML/CSS
+- Rest API
 
 ## Project Check-in  -- 6/8/2021
 
@@ -21,13 +24,13 @@ For the past few weeks we have been researching how to meet our goals, with the 
 
 Tickets are being created for using API's and like the Crossover API portion of the the requiremnts, and future ideas for enhancement. Deployment on to Mr. Mortensen's hardware is now in progress.
 
-## Bubble Sort Lab 
+## Minilabs
 
-[Mackenzie](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/kenzie/routes.py#L39-L55)
-[Anthony](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/anthony/routes.py#L21-L37)
-[Pedro](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/pedro/routes.py#L15-L31)
-[Naweid](https://github.com/PedroBMedeiros/P2-Anteaters/blob/main/blueprint/naweid/routes.py#L13-L29)
-[Cherry]()
+[Mackenzie](https://p2anteaters-todos.tk/member/Mackenzie)
+[Anthony](https://p2anteaters-todos.tk/member/Anthony)
+[Pedro](https://p2anteaters-todos.tk/member/Pedro)
+[Naweid](https://p2anteaters-todos.tk/member/Naweid)
+[Cherry](https://p2anteaters-todos.tk/member/Cherry)
 
 ## Links for Crossover
 
