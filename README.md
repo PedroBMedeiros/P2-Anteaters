@@ -1,10 +1,68 @@
-# P2 Anteaters
+## How its made
 
-Welcome to our Trimester 3 Night Hawk Planner Project.
+Our project is comprised of two standalone sections, the **server side** and the **client side**. We did this in order to use React on the frontend in order to make a beautiful & functional website in record time.
 
-This is the link to our website -- https://p2anteaters-todos.tk/
+#### Server side (Flask)
 
-We created an online planner that consists of a to do list. The user is able to create an account and login after that. We pulled information through an API with a crossover group that is shown by displaying the weather in different places. 
+The first section of our project is our main server written in Python with the Flask lightweight framework. Our server was built to be a complete API so all actions are handled remotely through API requests from the client. This approach allows us to use a javascript framework like react for the frontend, without this approach it wouldn't be efficient.
+
+The base of our server has two database models which are the `User` and `Todos` models that are bound through a one-to-many relationship which means that a `User` may have many `Todos` but a `Todos` may not have many `User`. Below are the model snippets.
+
+```py
+class User(UserMixin, db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    username = db.Column(db.String(15), unique=True)
+    email = db.Column(db.String(50), unique=True)
+    password = db.Column(db.String(80))
+    todos = db.relationship('Todos', backref='author')
+
+
+class Todos(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    name = db.Column(db.String(120), nullable=False)
+    desc = db.Column(db.Text, nullable=False)
+    completed = db.Column(db.Boolean)
+    date_added = db.Column(db.DateTime, nullable=False, default=datetime.utcnow)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'), nullable=False)
+```
+
+Although these models would be rendered useless without server functionality so we added some API routes so that the client side of the application could interact with relational database. Below are an explanation of just 2 of the 8 routes.
+
+**Adding Todo**
+
+A crucial part of our application was to allow the logged in user to add a "todo", otherwise we wouldn't have anything. Similar to all of the other routes in the `app.py` we accomplished this by creating an API route that can we requested through the client side.
+
+```py
+@app.route('/add_todo/<username>', methods=['POST'])
+def add_todo(username):
+    d = request.get_json()
+    user = User.query.filter_by(username=username).first()
+    todo = Todos(name=d['name'], desc=d['desc'], completed=d['completed'], author=user)
+    db.session.add(todo)
+    db.session.commit()
+    return 'Added Todo', 201
+```
+
+This route in particular takes a `username` parameter as well as a JSON object from the incoming POST request. This incoming JSON is then deconstructed by the individual keys after the corresponding user object matching the `username` parameter is found, these deconstructed keys are then committed into the database through the current users corresponding Id.
+
+**Users Todos**
+
+In order to display all of the users individual "todos" onto the screen we first need the data to be accessed by the client side. This is why we have a route that returns all of a users "todos".
+
+```py
+@app.route('/todos/<username>', methods=['GET'])
+def todos(username):
+    for user in User.query.filter_by(username=username):
+        todos = []
+        for todo in user.todos:
+            todos.append({'id':todo.id, 'name': todo.name, 'desc': todo.desc, 'completed': todo.completed, 'date_added': todo.date_added})
+        response = jsonify({'todos': todos})
+        return response
+    return 'Request failed, make sure user exists (case sensitive).', 404
+```
+
+This route takes a single parameter which is the `username` parameter, similar to the `/add_todo` route. We then use the `username` string to find the users particular corresponding object in the database, this object contains all type of information about the user although through dot notation we can loop over all of the users todos. All of the todos are then appended to an array, converted to acceptable JSON then returned back to the client. In the case that the user doesn't exist there is a fallback return that simply lets the client know that the server couldn't find the entry.
+
 #### Client side (React)
 
 The client side (frontend) of the application was built entirely in React, and without the server is completely functionless although servable for frontend functionality. The biggest advantage that React provides as opposed to traditional front-end development is that you can build functional components which are practically snippets of the ui that can all be combined in order to build a faster and cleaner application. Another major advantage of using React for frontend development is the access to the massive ecosystem of libraries to help aid you in the development process, this project is no exception and is utilizing lots of libraries.
@@ -300,109 +358,4 @@ As previously mentioned the client side uses lots of libraries, below is a list 
 **Deployment**
 
 Our client side deployment was done on [Netlify](https://www.netlify.com/), this means that we have two different deployments with no strings attached. The reason we chose to deploy the client side on Netlify instead of the raspberry pi is because on Netlify everything is git-flow oriented which means that all you need to do to deploy a client application built on node is simply login and choose the repo.
-## Technical Requirements
 
-- Python
-- SQLAlchemy
-- Flask
-- React
-- Raspberry Pi
-- HTML/CSS
-- Rest API
-
-## Project Check-in  -- 6/16/2021
-
-Everything thing is functional, including the to do list, API's and databases. The project is now complete
-
-We just recently completed deployment. The backend is deployed on Mr. Mortensen's hardware. While the front end is deployed locally. The api is deployed on Mr. Mortensen's python led. And the nginx is deployed on society white. 
-
-The [commercial]() is ready to introduce newcomers to the website.
-
-## Minilabs - https://p2anteaters-todos.tk/members
-
-[Mackenzie](https://p2anteaters-todos.tk/member/Mackenzie)
-- [Quadratic Formula](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/Kenzie.jsx#L16-L37)
-- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
-
-[Anthony](https://p2anteaters-todos.tk/member/Anthony)
-- [Cube Formula](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/Anthony.jsx#L16-L34)
-- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
-
-[Pedro](https://p2anteaters-todos.tk/member/Pedro)
-- [Pythagorean Theorem]()
-- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
-
-[Naweid](https://p2anteaters-todos.tk/member/Naweid)
-- [Addition Formula]()
-- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
-
-[Cherry](https://p2anteaters-todos.tk/member/Cherry)
-- [Multiplication Formula]()
-- [Bubble Sort](https://github.com/PedroBMedeiros/P2-Anteaters/blob/83c12e225b090056899ee81687e0d2a0ce8d8cb5/client/src/members/BubbleSort.jsx#L9-L40)
-
-# Roles
-
-``Anthony`` He is going to handle all the SQLalchemey and python mechanics as he is going to create the database, create a rest api, and handle the backend with the planner.
-
-``Mackenzie`` She is going to work with Naweid on handling all the HTML and CSS aspects in making the project look nice and formating the planner to function better.
-
-``Pedro`` He is going to create the sign up system/login system and deploy our project as well as create a domain for our website.
-
-``Naweid`` He is going to work with Kenzie on handling the HTML and CSS aspects and he is going to help Pedro with the login system.
-
-
-## Links for Initial Crossover
-
-|  |  | |  
-| :---: | :---: | :---: | 
-|[Project Plan](https://docs.google.com/document/d/11LWZ9hyue_IkX8C8bp0Zeuk3ExlGAliwQJ50faWWa-A/edit) | [Scrum Board](https://github.com/PedroBMedeiros/P2-Anteaters/projects/1)| [BluePrints](https://github.com/PedroBMedeiros/P2-Anteaters/tree/main/blueprint)
-| [runtime link](http://75.6.165.166:5000/)| [Lions Github](https://github.com/MaxVukovich/P2Lions) | [Lions Crossover](https://docs.google.com/document/d/1duoyskf4muDNbS6AEM72v9KyWRofymjHcliAa2HA2Go/edit)| 
-
-## [Mini Lab Write up](https://docs.google.com/document/d/1bvwxZ3gezqBtiqN9OtmYs8lHBbSVsHPukqHPYjIpmyM/edit?usp=sharing)
-``Kenzie``: 
-
-For point 1 I created my new class with the corresponding objects inside of my personal route. For the second point I defined a class on line 5 name "Intro", I am using this route to store information about my name and also any other data I might want to add in the future. I also created an object out of this class for the third point. This object was created on line 8. For the fourth point I display the data by passing my object in as a jinja variable so that I can display it on my page. For the final point, one thing that I became aware of when doing this was the flexibility of classes, I found it really interesting, easy and important that I could quickly add new data whilst also staying very organized.
-
-``Anthony``: [Commit](https://github.com/PedroBMedeiros/P2-Anteaters/commit/5d118ec501ffdb1e1a44c4a9b8cabc5a0d740239)
-
-For the first task, I created a personal blueprint under /Anthony. I then proceeded to create a class called Info, which allowed me to complete my next task in creating an object as I was able to convert my class into an object. I finished this off by making the object into a jinja variable and rendering it. I would say the thing I am most proud of is the simplicity of it all as I was able to answer all of the requirements and create a functioning system with only a few lines of code. 
-
-``Pedro``: [Commit](https://github.com/PedroBMedeiros/P2-Anteaters/commit/25d000ebbcc0a873786496ccd679c14615de1b45#diff-568470d013cd12e4f388206520da39ab9a4e4c3c6b95846cbc281abc1ba3c959)
-
-For the **first binary point**, I built a new class with the associated objects within my personal route -- For the **second binary point**, on line 6, I defined a class called *Intro*. I'm using this route to store information about my name as well as any other information I may want to add in the future -- For the **third stage**, I made an object out of this class. Line 8 is where this object was made -- For the **fourth point**, I show the data by making my object a jinja variable, which allows me to show it on my page -- My **WOW** for this check-in was that I was able to add a real time clock to the navbar on the website. -- [Practice Test](https://docs.google.com/document/d/1iRuTxr_HcBfSpD-JJubtWPwv1-Jk5tKrxsIrzKTXIqY/edit). Since we now have tranferred to using react, me and Anthony have each created a route to simplify the crossover's experience when creting their connection to our project and vice versa.
-Now working on deploying to Mr. Mortensen's hardware.
-
-``Naweid``: [Commit](https://github.com/PedroBMedeiros/P2-Anteaters/commit/0d6076d1f8b38a3fe1132bc776d27234df28e879#diff-912f2989dafca53eafd7e883ae77456faaef67846d74dd560016ff15b9ccf709R2-R12)
-
-For the first point, I created a new class in my blueprent under routes.py. For the second point, I was able to define/enhance this class by naming it intro, which I can use to create an object out of. Forthe third point, I was able to create the object out of the class "intro" on line 8 where it states "intro=Intro()." For the fourth point, I was able to display the data by making it a jinja variable. For the last and final point, my wow factor is that I was able to concise my code in order to make the code simple, efficent, and get the points needed.
-# Delivery of Running Code and Big Ticket Items: [Scrum Board](https://github.com/PedroBMedeiros/P2-Anteaters/projects/1)
-Here you will find our progress throughout this project. We use tickets to track our goals, items that needs to be done, items in progress, and items that are finished and deployed.
-
-### [Contributes](https://github.com/PedroBMedeiros/P2-Anteaters/graphs/contributors)
-Here you will find each contributors' progress, commit history, and amount of commits
-
-## Big Ideas
-
-```Big Idea 1: Creative Development```    
-```10–13%```
-
-```Big Idea 2: Data ```   
-```17–22%```
-
-```Big Idea 3: Algorithms and Programming ```  
-```30–35%```
-
-```Big Idea 4: Computer Systems and Networks```   
-``` 11–15%```
-
-```Big Idea 5: Impact of Computing```      
-```21–26%```
-
-## Contact
-[MACKENZIE A](https://github.com/kenzie-rylie)
-
-[ANTHONY G](https://github.com/Giustanthony)
-
-[PEDRO M](https://github.com/PedroBMedeiros)
-
-[NAWEID H](https://github.com/Naweid)
