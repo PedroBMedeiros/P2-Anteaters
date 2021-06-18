@@ -4,6 +4,10 @@ Welcome to our Trimester 3 Night Hawk Planner Project.
 
 We are creating an online planner that consists of a to do list, a dynamic calendar, and a dynamic number that lists the amount of things that needs to be done. The user will be able to create an account. We will be pulling information that will be shown on specific dates on the calendar, like holidays or games in a specific sport.
 
+## Commercial
+
+This is the link to the Website [Commercial](https://www.youtube.com/watch?v=saeQ9iD25us)
+
 ## How its made
 
 Our project is comprised of two standalone sections, the **server side** and the **client side**. We did this in order to use React on the frontend in order to make a beautiful & functional website in record time.
